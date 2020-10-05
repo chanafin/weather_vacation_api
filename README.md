@@ -1,13 +1,1 @@
-# Python API Homework
-
-## Background
-
-The Unit 6 (Python API) homework combines both API work as well as Social Analytics work.
-
-Please see the detailed assignment information in the following folders:
-* `Twitter-API-Instructions` 
-* `Weather-API-Instructions` 
-
-### Copyright
-
-Data Boot Camp © 2020. All Rights Reserved.
+Api Work - An introduction to APIs. As always, consult the documentation before trying to make API calls. Here, we are working with the World Bank. Construct a response through a request.get with the URL in a .json(). It is advisable to print the jsonified response using .dumps(). The goal is to get a list of each Lending type. Traverse the index and use a list comprehension to extract the necessary values. Now that we have a list of the lending types, we create an empty array construct a loop that queries each lending type. In our response, there is an array which has a key-value pair that contains the amount of countries that use that specific lending type. Append this value to the array.
